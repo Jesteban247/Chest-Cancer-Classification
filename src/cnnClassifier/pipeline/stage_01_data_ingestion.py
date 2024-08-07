@@ -49,7 +49,7 @@ if __name__ == '__main__':
         obj.main()
         
         # Log the completion of the data ingestion stage
-        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<")
+        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
         # Log the exception if any error occurs and re-raise it
         logger.exception(e)

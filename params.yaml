@@ -1,1 +1,23 @@
-key: val
+# Enable data augmentation to artificially increase the training dataset size
+AUGMENTATION: False
+
+# Resize input images to 224x224 pixels with 3 color channels (RGB)
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+
+# Set batch size to 16, meaning the model will update its weights after processing 16 images
+BATCH_SIZE: 16
+
+# Exclude the top (fully connected) layers of the model; useful for adding custom top layers
+INCLUDE_TOP: False
+
+# Train the model for 1 epoch (full pass through the dataset)
+EPOCHS: 1
+
+# Number of classes in the classification task (binary classification in this case)
+CLASSES: 3
+
+# Initialize model weights with pre-trained weights from ImageNet for transfer learning
+WEIGHTS: imagenet
+
+# Set learning rate to 0.01; controls the size of weight updates during training
+LEARNING_RATE: 0.01
