@@ -1,0 +1,19 @@
+tensorflow==2.12.0  # Deep learning framework
+pandas              # Data manipulation and analysis library
+kaggle              # Command-line tool for interacting with Kaggle datasets
+dvc                 # Data Version Control for managing datasets
+mlflow==2.2.2       # Platform for managing the ML lifecycle
+notebook            # Jupyter Notebook support
+numpy               # Numerical computations library
+matplotlib          # Plotting library
+seaborn             # Statistical data visualization library
+python-box==6.0.2   # Python dictionaries with dot notation access
+pyYAML              # YAML parser and emitter for Python
+tqdm                # Progress bar for loops and scripts
+ensure==1.0.2       # Type validation library
+joblib              # Lightweight pipelining in Python
+types-PyYAML        # Type annotations for pyYAML
+scipy               # Scientific computing library
+Flask               # Micro web framework for Python
+Flask-Cors          # Handling Cross-Origin Resource Sharing (CORS) in Flask
+-e .                # Install the current package in editable mode

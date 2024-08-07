@@ -1,0 +1,8 @@
+to use it.
+1. first run Template.py
+    python Template.py
+2. Update the setup.py and then the requirements.txt. After that
+    pip install -r requirements.txt
+3. Edit the init.py in the src folder
+4. Create a file "common.py" in the path src/cnnClassifier/utils and edit it 
+5. See some thiung in teh research fil the data ingestion
