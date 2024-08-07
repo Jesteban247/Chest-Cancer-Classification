@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: kaggle datasets download -d maedemaftouni/large-covid19-ct-slice-dataset  # Note: Placeholder indicating Kaggle
+  local_data_file: artifacts/data_ingestion/large-covid19-ct-slice-dataset.zip
+  unzip_dir: artifacts/data_ingestion
